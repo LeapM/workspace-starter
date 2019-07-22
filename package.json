@@ -1,0 +1,9 @@
+{
+  "name": "workspaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tabluw <luming.wang@rwwa.com.au>",
+  "license": "MIT",
+  "private": true,
+  "workspaces":["packages/*"]
+}

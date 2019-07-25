@@ -5,5 +5,15 @@
   "author": "tabluw <luming.wang@rwwa.com.au>",
   "license": "MIT",
   "private": true,
-  "workspaces":["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bundle:b": "cd packages/module_b && yarn bundle:dev",
+    "build:a": "cd packages/module_a && yarn build",
+    "clean:node": "rimraf **/node_modules"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  }
 }
